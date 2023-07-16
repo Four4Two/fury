@@ -27,8 +27,8 @@ rm -rf $DATA
 BINARY=fury
 
 # Create new data directory, overwriting any that alread existed
-chainID="furylocalnet_8888-1"
-$BINARY init validator --chain-id $chainID
+chainID="highbury_710-1"
+$BINARY init validator --chain-id $chainID 
 
 # hacky enable of rest api
 sed -in-place='' 's/enable = false/enable = true/g' $DATA/config/app.toml
@@ -41,14 +41,14 @@ sed -in-place='' '/iavl-cache-size/a\
 trace = true' $DATA/config/app.toml
 
 # Set client chain id
-sed -in-place='' 's/chain-id = ""/chain-id = "furylocalnet_8888-1"/g' $DATA/config/client.toml
+sed -in-place='' 's/chain-id = ""/chain-id = "clockend_4200-1"/g' $DATA/config/client.toml
 
 # avoid having to use password for keys
 $BINARY config keyring-backend test
 
 # Create validator keys and add account to genesis
 validatorKeyName="validator"
-printf "$validatorMnemonic\n" | $BINARY keys add $validatorKeyName --recover
+$BINARY keys add $validatorKeyName 
 $BINARY add-genesis-account $validatorKeyName 2000000000ufury,100000000000bnb
 
 # Create faucet keys and add account to genesis

@@ -2,7 +2,7 @@
 
 ## Software Version and Key Dates
 
-- The version of `fury` for Fury 14 is v0.24.0
+- The version of `fury` for Fury 14 is v0.4.0
 - The Fury 13 chain will be shutdown with a `SoftwareUpgradeProposal` that activates at approximately 15:00 UTC on July, 12th 2023.
 
 ## Configuration Changes
@@ -21,7 +21,7 @@ In previous versions, the default was non-zero and was used to mitigate DDoS sty
 
 **Ensure you are using golang 1.20.x and not aa different version.** Golang 1.19 and below may cause app hash mismatches!
 
-1. Update to v0.24.0
+1. Update to v0.4.0
 
 ```sh
   # check go version - look for 1.20!
@@ -30,7 +30,7 @@ In previous versions, the default was non-zero and was used to mitigate DDoS sty
 
   # in the `fury` folder
   git fetch
-  git checkout v0.24.0
+  git checkout v0.4.0
 
   # Note: Golang 1.20 must be installed before this step
   make install

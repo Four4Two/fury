@@ -19,8 +19,8 @@ import (
 )
 
 const (
-	MainnetUpgradeName = "v0.24.0"
-	TestnetUpgradeName = "v0.24.0-alpha.0"
+	MainnetUpgradeName = "v0.4.0"
+	TestnetUpgradeName = "v0.4.0-alpha.0"
 
 	MainnetAtomDenom = "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
 	TestnetJinxDenom = "jinx"
