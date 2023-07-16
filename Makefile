@@ -238,19 +238,19 @@ format:
 ###                                Localnet                                 ###
 ###############################################################################
 
-# Build docker image and tag as fury/fury:local
+# Build docker image and tag as fanfury/fury:local
 docker-build:
-	DOCKER_BUILDKIT=1 $(DOCKER) build -t fury/fury:local .
+	DOCKER_BUILDKIT=1 $(DOCKER) build -t fanfury/fury:local .
 
 docker-build-rocksdb:
-	DOCKER_BUILDKIT=1 $(DOCKER) build -f Dockerfile-rocksdb -t fury/fury:local .
+	DOCKER_BUILDKIT=1 $(DOCKER) build -f Dockerfile-rocksdb -t fanfury/fury:local .
 
 build-docker-local-fury:
 	@$(MAKE) -C networks/local
 
 # Run a 4-node testnet locally
 localnet-start: build-linux localnet-stop
-	@if ! [ -f build/node0/fud/config/genesis.json ]; then docker run --rm -v $(CURDIR)/build:/fud:Z fury/furynode testnet --v 4 -o . --starting-ip-address 192.168.10.2 --keyring-backend=test ; fi
+	@if ! [ -f build/node0/fud/config/genesis.json ]; then docker run --rm -v $(CURDIR)/build:/fud:Z fanfury/furynode testnet --v 4 -o . --starting-ip-address 192.168.10.2 --keyring-backend=test ; fi
 	docker-compose up -d
 
 localnet-stop:
@@ -314,9 +314,9 @@ test-migrate:
 # This submits an AWS Batch job to run a lot of sims, each within a docker image. Results are uploaded to S3
 start-remote-sims:
 	# build the image used for running sims in, and tag it
-	docker build -f simulations/Dockerfile -t fury/fury-sim:master .
+	docker build -f simulations/Dockerfile -t fanfury/fury-sim:master .
 	# push that image to the hub
-	docker push fury/fury-sim:master
+	docker push fanfury/fury-sim:master
 	# submit an array job on AWS Batch, using 1000 seeds, spot instances
 	aws batch submit-job \
 		-—job-name "master-$(VERSION)" \

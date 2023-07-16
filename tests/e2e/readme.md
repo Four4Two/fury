@@ -7,7 +7,7 @@ present, you must initialize the subrepo: `git submodule update --init`.
 Steps to run
 1. Ensure latest `futool` is installed: `make update-futool`
 2. Run the test suite: `make test-e2e`
-   This will build a docker image tagged `fury/fury:local` that will be run by futool.
+   This will build a docker image tagged `fanfury/fury:local` that will be run by futool.
 
 **Note:** The suite will use your locally installed `futool` if present. If not present, it will be
 installed. If the `futool` repo is updated, you must manually update your existing local binary: `make update-futool`
@@ -72,7 +72,7 @@ This configuration is controlled by the following env variables:
 * `E2E_INCLUDE_AUTOMATED_UPGRADE` - toggles on the upgrade functionality. Must be set to `true`.
 * `E2E_FURY_UPGRADE_NAME` - the named upgrade, likely defined in [`app/upgrades.go`](../../app/upgrades.go)
 * `E2E_FURY_UPGRADE_HEIGHT` - the height at which to run the upgrade
-* `E2E_FURY_UPGRADE_BASE_IMAGE_TAG` - the [fury docker image tag](https://hub.docker.com/r/fury/fury/tags) to base the upgrade on
+* `E2E_FURY_UPGRADE_BASE_IMAGE_TAG` - the [fury docker image tag](https://hub.docker.com/r/fanfury/fury/tags) to base the upgrade on
 
 When all these are set, the chain is started with the binary contained in the docker image tagged
 `E2E_FURY_UPGRADE_BASE_IMAGE_TAG`. Then an upgrade proposal is submitted with the desired name and

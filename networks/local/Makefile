@@ -1,4 +1,4 @@
 all:
-	docker build --tag fury/furynode furynode
+	docker build --tag fanfury/furynode furynode
 
 .PHONY: all
