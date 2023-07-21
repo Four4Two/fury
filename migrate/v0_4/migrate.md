@@ -2,7 +2,7 @@
 
 ## Software Version and Key Dates
 
-- The version of `fury` for Fury 14 is v0.4.0
+- The version of `fury` for Fury 14 is v0.4.1
 - The Fury 13 chain will be shutdown with a `SoftwareUpgradeProposal` that activates at approximately 15:00 UTC on July, 12th 2023.
 
 ## Configuration Changes
@@ -67,4 +67,4 @@ In the event that the upgrade does not succeed, validators and operators must do
 
 ### Coordination
 
-If the Fury 14 chain does not launch by July 13th, 2023 at 00:00 UTC, the launch should be considered a failure. In the event of launch failure, coordination will occur in the [Fury discord](https://discord.com/invite/kQzh3Uv).
+If the Fury 14 chain does not launch by July 23th, 2023 at 00:00 UTC, the launch should be considered a failure. In the event of launch failure, coordination will occur in the [Fury discord](https://discord.com/invite/kQzh3Uv).

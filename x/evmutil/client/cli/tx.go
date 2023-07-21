@@ -84,7 +84,7 @@ func getCmdConvertEvmERC20ToCoin() *cobra.Command {
 		Use:   "convert-evm-erc20-to-coin [Fury receiver address] [Fury ERC20 address] [amount]",
 		Short: "EVM-native asset: converts an ERC20 on EVM co-chain to a coin on Cosmos co-chain",
 		Example: fmt.Sprintf(`
-%[1]s tx %[2]s convert-evm-erc20-to-coin fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t 0xeA7100edA2f805356291B0E55DaD448599a72C6d 1000000000000000 --from <key> --gas 1000000
+%[1]s tx %[2]s convert-evm-erc20-to-coin fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t 0xE69FB5D7C8450FB4E721A5357969E3D487A0CF91 1000000000000000 --from <key> --gas 1000000
 `, version.AppName, types.ModuleName,
 		),
 		Args: cobra.ExactArgs(3),
