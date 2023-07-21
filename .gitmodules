@@ -1,3 +1,3 @@
 [submodule "tests/e2e/futool"]
 	path = tests/e2e/futool
-	url = https://github.com/four4two/futool
+	url = https://github.com/four4two/futool-2
