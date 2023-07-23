@@ -215,7 +215,7 @@ func (suite *MsgServerSuite) TestConvertERC20ToCoin() {
 			types.NewMsgConvertERC20ToCoin(
 				invoker,
 				invokerCosmosAddr,
-				testutil.MustNewInternalEVMAddressFromString("0x7Bbf300890857b8c241b219C6a489431669b3aFA"),
+				testutil.MustNewInternalEVMAddressFromString("0x006E1520A7C588C6834E8C483BE4527A028D6326"),
 				sdkmath.NewInt(10_000),
 			),
 			math.MaxBig256,
