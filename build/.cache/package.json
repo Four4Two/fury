@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "swagger-combine": "^1.4.0"
+  }
+}
