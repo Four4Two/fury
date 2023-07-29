@@ -10,7 +10,7 @@ option go_package = "github.com/evmos/ethermint/x/feemarket/types";
 message GenesisState {
   // params defines all the parameters of the feemarket module.
   Params params = 1 [(gogoproto.nullable) = false];
-  // DEPRECATED: base fee is the exported value from previous software version.
+  // DEPREJINXED: base fee is the exported value from previous software version.
   // Zero by default.
   reserved 2;
   reserved "base_fee";

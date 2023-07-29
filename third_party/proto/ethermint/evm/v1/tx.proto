@@ -28,7 +28,7 @@ message MsgEthereumTx {
   // data is inner transaction data of the Ethereum transaction
   google.protobuf.Any data = 1;
 
-  // size is the encoded storage size of the transaction (DEPRECATED)
+  // size is the encoded storage size of the transaction (DEPREJINXED)
   double size = 2 [(gogoproto.jsontag) = "-"];
   // hash of the transaction in hex format
   string hash = 3 [(gogoproto.moretags) = "rlp:\"-\""];

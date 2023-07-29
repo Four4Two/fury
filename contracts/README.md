@@ -1,7 +1,6 @@
-# Fury EVM contracts
+# Fury Ethereum Bridge
 
-Contracts for the Fury EVM used by the Fury blockchain.
-Includes an ERC20 contract for wrapping native cosmos sdk.Coins.
+A contract for cross-chain ERC20 token transfers.
 
 ## Setup
 
@@ -25,23 +24,20 @@ npm run dev
 npm run test-watch
 ```
 
-## Deploying contracts to test networks
-
-A deploy script is included in this hardhat project to deploy a contract directly to a network.
-To deploy the contracts to different networks:
+## Deploy with Hardhat
 
 ```
-npx hardhat run --network <network-name> scripts/deploy.ts
+FURY_BRIDGE_RELAYER_ADDRESS=0x6B1088f788b412Ad1280F95240d56B886A64bc05 npx hardhat run scripts/deploy.ts
 ```
 
-Configuration for various `<network-name>`s above are setup in the [hardhat config](./hardhat.config.ts).
+## Compatibility with Ethermint
 
-## Production compiling & Ethermint JSON
+Ethermint has their own json format for a compiled contract. The following
+converts the abi field to a stringified array, renames bytecode field name to
+bin with the leading `0x` trimmed.
 
-Ethermint uses its own json format that includes the ABI and bytecode in a single file. The bytecode should have no `0x` prefix and should be under the property name `bin`. This structure is built from the compiled code with `npm ethermint-json`.
-
-The following compiles the contract, builds the ethermint json and copies the file to the evmutil:
-
+```bash
+jq '.abi = (.abi | tostring) | {abi, bin: .bytecode[2:] }' < artifacts/contracts/ERC20MintableBurnable.sol/ERC20MintableBurnable.json > ethermint_json/ERC20MintableBurnable.json
 ```
-npm build
-```
+
+This is performed by the root Makefile in the `make compile-contracts` command

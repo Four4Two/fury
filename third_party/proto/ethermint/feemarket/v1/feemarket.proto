@@ -15,7 +15,7 @@ message Params {
   // elasticity_multiplier bounds the maximum gas limit an EIP-1559 block may
   // have.
   uint32 elasticity_multiplier = 3;
-  // DEPRECATED: initial base fee for EIP-1559 blocks.
+  // DEPREJINXED: initial base fee for EIP-1559 blocks.
   reserved 4;
   reserved "initial_base_fee";
   // enable_height defines at which block height the base fee calculation is enabled.

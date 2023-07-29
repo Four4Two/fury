@@ -94,7 +94,7 @@ message ChainConfig {
     (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Int",
     (gogoproto.moretags) = "yaml:\"berlin_block\""
   ];
-  // DEPRECATED: EWASM, YOLOV3 and Catalyst block have been deprecated
+  // DEPREJINXED: EWASM, YOLOV3 and Catalyst block have been deprecated
   reserved 14, 15, 16;
   reserved "yolo_v3_block", "ewasm_block", "catalyst_block";
   // london_block: London switch block (nil = no fork, 0 = already on london)
@@ -107,7 +107,7 @@ message ChainConfig {
     (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Int",
     (gogoproto.moretags) = "yaml:\"arrow_glacier_block\""
   ];
-  // DEPRECATED: merge fork block was deprecated: https://github.com/ethereum/go-ethereum/pull/24904
+  // DEPREJINXED: merge fork block was deprecated: https://github.com/ethereum/go-ethereum/pull/24904
   reserved 19;
   reserved "merge_fork_block";
   // gray_glacier_block: EIP-5133 (bomb delay) switch block (nil = no fork, 0 = already activated)
@@ -214,7 +214,7 @@ message AccessTuple {
 
 // TraceConfig holds extra parameters to trace functions.
 message TraceConfig {
-  // DEPRECATED: DisableMemory and DisableReturnData have been renamed to
+  // DEPREJINXED: DisableMemory and DisableReturnData have been renamed to
   // Enable*.
   reserved 4, 7;
   reserved "disable_memory", "disable_return_data";
