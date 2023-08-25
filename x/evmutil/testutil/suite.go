@@ -150,7 +150,7 @@ func (suite *Suite) SetupTest() {
 		types.NewConversionPairs(
 			types.NewConversionPair(
 				// First contract this module deploys
-				MustNewInternalEVMAddressFromString("0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3"),
+				MustNewInternalEVMAddressFromString("0x3263A1A64E6AD60c497bFe999b3a31c7bC7b314b"),
 				"erc20/usdc",
 			),
 		),

@@ -12,10 +12,10 @@ import (
 	"github.com/four4two/fury/app"
 	cdpkeeper "github.com/four4two/fury/x/cdp/keeper"
 	cdptypes "github.com/four4two/fury/x/cdp/types"
+	furydisttypes "github.com/four4two/fury/x/furydist/types"
 	"github.com/four4two/fury/x/incentive/keeper"
 	"github.com/four4two/fury/x/incentive/testutil"
 	"github.com/four4two/fury/x/incentive/types"
-	furydisttypes "github.com/four4two/fury/x/furydist/types"
 )
 
 type USDFIntegrationTests struct {

@@ -20,7 +20,7 @@ const config: HardhatUserConfig = {
       url: "http://127.0.0.1:8545",
       accounts: [
         // fury keys unsafe-export-eth-key whale2
-        "AA50F4C6C15190D9E18BF8B14FC09BFBA0E7306331A4F232D10A77C2879E7966",
+        "2E6CBA62B30E51E805D8F4D5999E06B65B4A3BF1520D660782E775073F518E1B",
       ],
     },
     protonet: {

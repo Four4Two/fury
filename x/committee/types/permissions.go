@@ -11,8 +11,8 @@ import (
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 	paramsproposal "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	proto "github.com/gogo/protobuf/proto"
 	communitytypes "github.com/four4two/fury/x/community/types"
+	proto "github.com/gogo/protobuf/proto"
 )
 
 // Permission is anything with a method that validates whether a proposal is allowed by it or not.
