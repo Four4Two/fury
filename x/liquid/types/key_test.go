@@ -22,14 +22,14 @@ func TestParseLiquidStakingTokenDenom(t *testing.T) {
 	}{
 		{
 			name:        "valid denom",
-			giveDenom:   "bfury-furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05y6cpt5a",
-			wantAddress: mustValAddressFromBech32("furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05y6cpt5a"),
+			giveDenom:   "bfury-furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05yh6yyun",
+			wantAddress: mustValAddressFromBech32("furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05yh6yyun"),
 			wantErr:     nil,
 		},
 		{
 			name:        "invalid prefix",
-			giveDenom:   "ufury-furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05y6cpt5a",
-			wantAddress: mustValAddressFromBech32("furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05y6cpt5a"),
+			giveDenom:   "ufury-furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05yh6yyun",
+			wantAddress: mustValAddressFromBech32("furyvaloper1ze7y9qwdddejmy7jlw4cymqqlt2wh05yh6yyun"),
 			wantErr:     fmt.Errorf("invalid denom prefix, expected %s, got %s", types.DefaultDerivativeDenom, "ufury"),
 		},
 		{

@@ -23,9 +23,9 @@ import (
 	earntypes "github.com/four4two/fury/x/earn/types"
 	tmprototypes "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	jinxtypes "github.com/four4two/fury/x/jinx/types"
 	"github.com/four4two/fury/x/incentive/keeper"
 	"github.com/four4two/fury/x/incentive/types"
+	jinxtypes "github.com/four4two/fury/x/jinx/types"
 )
 
 // NewTestContext sets up a basic context with an in-memory db

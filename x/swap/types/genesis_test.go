@@ -140,12 +140,12 @@ func TestGenesis_JSONEncoding(t *testing.T) {
 		],
 		"share_records": [
 		  {
-		    "depositor": "fury1mq9qxlhze029lm0frzw2xr6hem8c3k9ts54w0w",
+		    "depositor": "fury1mq9qxlhze029lm0frzw2xr6hem8c3k9tu2gu2x",
 		    "pool_id": "ufury:usdf",
 		    "shares_owned": "100000"
 			},
 		  {
-		    "depositor": "fury1esagqd83rhqdtpy5sxhklaxgn58k2m3s3mnpea",
+		    "depositor": "fury1esagqd83rhqdtpy5sxhklaxgn58k2m3sa9wnu4",
 		    "pool_id": "jinx:usdf",
 		    "shares_owned": "200000"
 			}
@@ -188,17 +188,17 @@ pool_records:
     denom: usdf
   total_shares: "1500000"
 share_records:
-- depositor: fury1mq9qxlhze029lm0frzw2xr6hem8c3k9ts54w0w
+- depositor: fury1mq9qxlhze029lm0frzw2xr6hem8c3k9tu2gu2x
   pool_id: ufury:usdf
   shares_owned: "100000"
-- depositor: fury1esagqd83rhqdtpy5sxhklaxgn58k2m3s3mnpea
+- depositor: fury1esagqd83rhqdtpy5sxhklaxgn58k2m3sa9wnu4
   pool_id: jinx:usdf
   shares_owned: "200000"
 `
 
-	depositor_1, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9ts54w0w")
+	depositor_1, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9tu2gu2x")
 	require.NoError(t, err)
-	depositor_2, err := sdk.AccAddressFromBech32("fury1esagqd83rhqdtpy5sxhklaxgn58k2m3s3mnpea")
+	depositor_2, err := sdk.AccAddressFromBech32("fury1esagqd83rhqdtpy5sxhklaxgn58k2m3sa9wnu4")
 	require.NoError(t, err)
 
 	state := types.NewGenesisState(
@@ -238,7 +238,7 @@ func TestGenesis_ValidatePoolRecords(t *testing.T) {
 }
 
 func TestGenesis_ValidateShareRecords(t *testing.T) {
-	depositor, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9ts54w0w")
+	depositor, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9tu2gu2x")
 	require.NoError(t, err)
 
 	invalidShareRecord := types.NewShareRecord(depositor, "", i(-1))
@@ -253,9 +253,9 @@ func TestGenesis_ValidateShareRecords(t *testing.T) {
 }
 
 func TestGenesis_Validate_PoolShareIntegration(t *testing.T) {
-	depositor_1, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9ts54w0w")
+	depositor_1, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9tu2gu2x")
 	require.NoError(t, err)
-	depositor_2, err := sdk.AccAddressFromBech32("fury1esagqd83rhqdtpy5sxhklaxgn58k2m3s3mnpea")
+	depositor_2, err := sdk.AccAddressFromBech32("fury1esagqd83rhqdtpy5sxhklaxgn58k2m3sa9wnu4")
 	require.NoError(t, err)
 
 	testCases := []struct {

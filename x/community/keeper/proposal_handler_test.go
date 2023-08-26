@@ -21,7 +21,7 @@ import (
 	pricefeedtypes "github.com/four4two/fury/x/pricefeed/types"
 )
 
-const chainID = "furytest_2221-1"
+const chainID = "furytest_710-2000-1"
 
 func c(denom string, amount int64) sdk.Coin { return sdk.NewInt64Coin(denom, amount) }
 func ufury(amt int64) sdk.Coins {

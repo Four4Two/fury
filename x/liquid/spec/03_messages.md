@@ -30,9 +30,9 @@ type MsgMintDerivative struct {
 ```jsonc
 {
   // user who owns the delegation
-  "sender": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t",
+  "sender": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6v9rpsr",
   // validator the user has delegated to
-  "validator": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+  "validator": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
   // amount of staked ufury to be converted into bfury
   "amount": {
     "amount": "1000000000",
@@ -67,13 +67,13 @@ type MsgBurnDerivative struct {
 ```jsonc
 {
   // user who owns the bfury
-  "sender": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t",
+  "sender": "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6v9rpsr",
   // the amount of bfury the user wants to convert back into normal staked fury
   "amount": {
     "amount": "1234000000",
-    "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42"
+    "denom": "bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay"
   },
   // the validator behind the bfury, this address must match the one embedded in the bfury denom above
-  "validator": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42"
+  "validator": "furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay"
 }
 ```

@@ -138,7 +138,7 @@
                                     },
                                     "min_self_delegation": "1",
                                     "delegator_address": "fury15qdefkmwswysgg4qxgqpqr35k3m49pkx2jdfnw",
-                                    "validator_address": "furyvaloper15qdefkmwswysgg4qxgqpqr35k3m49pkx8yhpte",
+                                    "validator_address": "furyvaloper15qdefkmwswysgg4qxgqpqr35k3m49pkx2xjwrh",
                                     "pubkey": "furyvalconspub1zcjduepq0ykwlzr3guncl5l8npqa5lmq8kc5y2aeqp8zc8e72t3stxujxvxsxqjqwt",
                                     "value": {
                                         "denom": "ufury",

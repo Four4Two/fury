@@ -52,7 +52,7 @@
           "denom": "btcb"
         }
       ],
-      "depositor": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgxf5mwv9",
+      "depositor": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgx92xufd",
       "index": [
         {
           "denom": "bnb",
@@ -73,7 +73,7 @@
           "denom": "xrpb"
         }
       ],
-      "borrower": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgxf5mwv9",
+      "borrower": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgx92xufd",
       "index": [
         {
           "denom": "usdf",

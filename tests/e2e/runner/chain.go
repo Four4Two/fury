@@ -69,7 +69,7 @@ var (
 		GrpcPort: "9090",
 		EvmPort:  "8545",
 
-		ChainId:      "clockend_4200-1",
+		ChainId:      "clockend_710-2000-1",
 		StakingDenom: "ufury",
 	}
 	ibcChain = ChainDetails{
@@ -78,7 +78,7 @@ var (
 		GrpcPort: "9092",
 		EvmPort:  "8547",
 
-		ChainId:      "furylocalnet_8889-2",
+		ChainId:      "furylocalnet_4200-2",
 		StakingDenom: "uatom",
 	}
 )

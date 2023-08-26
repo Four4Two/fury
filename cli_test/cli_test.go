@@ -67,7 +67,7 @@ func TestKvCLIKeysAddRecover(t *testing.T) {
 	// test old bip44 coin type
 	exitSuccess, _, _ = f.KeysAddRecover("test-recover-legacy", "dentist task convince chimney quality leave banana trade firm crawl eternal easily", "--legacy-hd-path")
 	require.True(t, exitSuccess)
-	require.Equal(t, "fury1qcfdf69js922qrdr4yaww3ax7gjml6pd39p8lj", f.KeyAddress("test-recover-legacy").String())
+	require.Equal(t, "fury1hvg7n9t8fuglumf6slv7657umafr7qc9k8xv7a", f.KeyAddress("test-recover-legacy").String())
 
 	// Cleanup testing directories
 	f.Cleanup()

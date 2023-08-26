@@ -291,31 +291,31 @@ func getCirculatingSupplyJINXY(ctx sdk.Context, req abci.RequestQuery, legacyQue
 
 	// []{Ecosystem, Team, Treasury, Fury Stakers, LP Incentives}
 	scheduleAmounts := [][]int64{
-		{12_500_000, 0, 15_625_000, monthlyStakersJinxy, monthlyLPIncentivesJinxy},  // *** Year ONE ***
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 1
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 2
+		{12_500_000, 0, 15_625_000, monthlyStakersJinxy, monthlyLPIncentivesJinxy},    // *** Year ONE ***
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 1
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 2
 		{0, 0, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},          // 3
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 4
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 5
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 4
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 5
 		{0, 0, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},          // 6
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 7
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 8
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 7
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 8
 		{0, 0, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},          // 9
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 10
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 11
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 10
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 11
 		{0, 18_750_000, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy}, // *** Year TWO ***
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 13
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 14
-		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},    // 15
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 16
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 17
-		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},    // 18
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 19
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 20
-		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},    // 21
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 22
-		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                    // 23
-		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},    // *** Year THREE ***
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 13
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 14
+		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},  // 15
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 16
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 17
+		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},  // 18
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 19
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 20
+		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},  // 21
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 22
+		{0, 0, 0, monthlyStakersJinxy, monthlyLPIncentivesJinxy},                      // 23
+		{0, teamJinxy, treasuryJinxy, monthlyStakersJinxy, monthlyLPIncentivesJinxy},  // *** Year THREE ***
 	}
 
 	// Months 25-47 are the same

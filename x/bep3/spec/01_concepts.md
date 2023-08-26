@@ -8,7 +8,7 @@ order: 1
 
 ## Requirements
 Fury
-- The deputy’s Fury address on mainnet is **fury1r4v2zdhdalfj2ydazallqvrus9fkphmglhn6u6**.
+- The deputy’s Fury address on mainnet is **fury1r4v2zdhdalfj2ydazallqvrus9fkphmgnfwgej**.
 - Fury's official API endpoint is https://fury3.data.fury.io.
 
 Binance Chain

@@ -29,7 +29,7 @@ func TestMsgConvertCoinToERC20(t *testing.T) {
 	}{
 		{
 			"valid",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			sdk.NewCoin("erc20/weth", sdkmath.NewInt(1234)),
 			errArgs{
@@ -38,7 +38,7 @@ func TestMsgConvertCoinToERC20(t *testing.T) {
 		},
 		{
 			"invalid - odd length hex address",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc",
 			sdk.NewCoin("erc20/weth", sdkmath.NewInt(1234)),
 			errArgs{
@@ -48,7 +48,7 @@ func TestMsgConvertCoinToERC20(t *testing.T) {
 		},
 		{
 			"invalid - zero amount",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			sdk.NewCoin("erc20/weth", sdkmath.NewInt(0)),
 			errArgs{
@@ -58,7 +58,7 @@ func TestMsgConvertCoinToERC20(t *testing.T) {
 		},
 		{
 			"invalid - negative amount",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			// Create manually so there is no validation
 			sdk.Coin{Denom: "erc20/weth", Amount: sdkmath.NewInt(-1234)},
@@ -69,7 +69,7 @@ func TestMsgConvertCoinToERC20(t *testing.T) {
 		},
 		{
 			"invalid - empty denom",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			sdk.Coin{Denom: "", Amount: sdkmath.NewInt(-1234)},
 			errArgs{
@@ -79,7 +79,7 @@ func TestMsgConvertCoinToERC20(t *testing.T) {
 		},
 		{
 			"invalid - invalid denom",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			sdk.Coin{Denom: "h", Amount: sdkmath.NewInt(-1234)},
 			errArgs{
@@ -126,7 +126,7 @@ func TestMsgConvertERC20ToCoin(t *testing.T) {
 	}{
 		{
 			"valid",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			"0xB6285111AED3239C0441F0BE86B7C22775F33054",
 			sdkmath.NewInt(1234),
@@ -136,7 +136,7 @@ func TestMsgConvertERC20ToCoin(t *testing.T) {
 		},
 		{
 			"invalid - odd length hex address",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc",
 			"0xB6285111AED3239C0441F0BE86B7C22775F33054",
 			sdkmath.NewInt(1234),
@@ -147,7 +147,7 @@ func TestMsgConvertERC20ToCoin(t *testing.T) {
 		},
 		{
 			"invalid - zero amount",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			"0xB6285111AED3239C0441F0BE86B7C22775F33054",
 			sdkmath.NewInt(0),
@@ -158,7 +158,7 @@ func TestMsgConvertERC20ToCoin(t *testing.T) {
 		},
 		{
 			"invalid - negative amount",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			"0xB6285111AED3239C0441F0BE86B7C22775F33054",
 			sdkmath.NewInt(-1234),
@@ -169,7 +169,7 @@ func TestMsgConvertERC20ToCoin(t *testing.T) {
 		},
 		{
 			"invalid - invalid contract address",
-			"fury123fxg0l602etulhhcdm0vt7l57qya5wjcrwhzz",
+			"fury17d2wax0zhjrrecvaszuyxdf5wcu5a0p4vpmrwu",
 			"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
 			"0x404F9466d758eA33eA84CeBE9E444b06533b369",
 			sdkmath.NewInt(1234),
@@ -204,7 +204,7 @@ func TestConvertCosmosCoinToERC20_ValidateBasic(t *testing.T) {
 	validFuryAddr := app.RandomAddress()
 	validHexAddr, _ := testutil.RandomEvmAccount()
 	invalidAddr := "not-an-address"
-	validAmount := sdk.NewInt64Coin("jinx", 5e3)
+	validAmount := sdk.NewInt64Coin("fury", 5e3)
 
 	testCases := []struct {
 		name        string
@@ -315,7 +315,7 @@ func TestConvertCosmosCoinFromERC20_ValidateBasic(t *testing.T) {
 	validHexAddr := testutil.RandomEvmAddress()
 	validFuryAddr := app.RandomAddress()
 	invalidAddr := "not-an-address"
-	validAmount := sdk.NewInt64Coin("jinx", 5e3)
+	validAmount := sdk.NewInt64Coin("fury", 5e3)
 
 	testCases := []struct {
 		name        string

@@ -14,12 +14,12 @@ import (
 	"github.com/four4two/fury/x/committee"
 	committeekeeper "github.com/four4two/fury/x/committee/keeper"
 	committeetypes "github.com/four4two/fury/x/committee/types"
-	"github.com/four4two/fury/x/jinx"
-	jinxkeeper "github.com/four4two/fury/x/jinx/keeper"
+	furydisttypes "github.com/four4two/fury/x/furydist/types"
 	"github.com/four4two/fury/x/incentive/keeper"
 	"github.com/four4two/fury/x/incentive/testutil"
 	"github.com/four4two/fury/x/incentive/types"
-	furydisttypes "github.com/four4two/fury/x/furydist/types"
+	"github.com/four4two/fury/x/jinx"
+	jinxkeeper "github.com/four4two/fury/x/jinx/keeper"
 )
 
 type SupplyIntegrationTests struct {

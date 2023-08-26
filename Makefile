@@ -238,12 +238,12 @@ format:
 ###                                Localnet                                 ###
 ###############################################################################
 
-# Build docker image and tag as fanfury/fury:local
+# Build docker image and tag as fanfury/furylocal
 docker-build:
-	DOCKER_BUILDKIT=1 $(DOCKER) build -t fanfury/fury:local .
+	DOCKER_BUILDKIT=1 $(DOCKER) build -t fanfury/furylocal .
 
 docker-build-rocksdb:
-	DOCKER_BUILDKIT=1 $(DOCKER) build -f Dockerfile-rocksdb -t fanfury/fury:local .
+	DOCKER_BUILDKIT=1 $(DOCKER) build -f Dockerfile-rocksdb -t fanfury/furylocal .
 
 build-docker-local-fury:
 	@$(MAKE) -C networks/local

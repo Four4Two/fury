@@ -7,7 +7,7 @@ present, you must initialize the subrepo: `git submodule update --init`.
 Steps to run
 1. Ensure latest `futool` is installed: `make update-futool`
 2. Run the test suite: `make test-e2e`
-   This will build a docker image tagged `fanfury/fury:local` that will be run by futool.
+   This will build a docker image tagged `fanfury/furylocal` that will be run by futool.
 
 **Note:** The suite will use your locally installed `futool` if present. If not present, it will be
 installed. If the `futool` repo is updated, you must manually update your existing local binary: `make update-futool`

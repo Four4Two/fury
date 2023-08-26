@@ -2,13 +2,13 @@ package types
 
 // Querier routes for the validator vesting module
 const (
-	QueryCirculatingSupply     = "circulating-supply"
-	QueryTotalSupply           = "total-supply"
-	QueryCirculatingSupplyJINX = "circulating-supply-jinx"
-	QueryCirculatingSupplyUSDF = "circulating-supply-usdf"
-	QueryCirculatingSupplyJINXY  = "circulating-supply-jinxy"
-	QueryTotalSupplyJINX       = "total-supply-jinx"
-	QueryTotalSupplyUSDF       = "total-supply-usdf"
+	QueryCirculatingSupply      = "circulating-supply"
+	QueryTotalSupply            = "total-supply"
+	QueryCirculatingSupplyJINX  = "circulating-supply-jinx"
+	QueryCirculatingSupplyUSDF  = "circulating-supply-usdf"
+	QueryCirculatingSupplyJINXY = "circulating-supply-jinxy"
+	QueryTotalSupplyJINX        = "total-supply-jinx"
+	QueryTotalSupplyUSDF        = "total-supply-usdf"
 )
 
 // BaseQueryParams defines the parameters necessary for querying for all Evidence.

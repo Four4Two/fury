@@ -68,7 +68,7 @@
   ],
   "deposits": [
     {
-      "depositor": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgxf5mwv9",
+      "depositor": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgx92xufd",
       "amount": [
         { "denom": "bnb", "amount": "162103943" },
         { "denom": "btcb", "amount": "19428483" }
@@ -78,7 +78,7 @@
   ],
   "borrows": [
     {
-      "borrower": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgxf5mwv9",
+      "borrower": "fury1qq9ustlc0nv4aew275w93g4qy5zahqgx92xufd",
       "amount": [
         { "denom": "usdf", "amount": "146724966" },
         { "denom": "xrpb", "amount": "541061835659" }

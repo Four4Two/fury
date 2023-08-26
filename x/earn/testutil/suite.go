@@ -33,9 +33,9 @@ import (
 )
 
 var TestBfuryDenoms = []string{
-	"bfury-furyvaloper15gqc744d05xacn4n6w2furuads9fu4pqn6zxlu",
-	"bfury-furyvaloper15qdefkmwswysgg4qxgqpqr35k3m49pkx8yhpte",
-	"bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydeckewa42",
+	"bfury-furyvaloper15gqc744d05xacn4n6w2furuads9fu4pq7c8fhj",
+	"bfury-furyvaloper15qdefkmwswysgg4qxgqpqr35k3m49pkx2xjwrh",
+	"bfury-furyvaloper1ypjp0m04pyp73hwgtc0dgkx0e9rrydecmmtjay",
 }
 
 // Suite implements a test suite for the earn module integration tests

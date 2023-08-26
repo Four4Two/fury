@@ -1,0 +1,262 @@
+- address: fury1f6yvw7zc0q7a4d85gnft3669wweet06ct9ft66
+  name: airdrop
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"ApTu3wl7IOlEVNGYSfa3bxG57a6AuiQDz7ZcVcXA1lKh"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+word click miracle canoe finger party jar mule obtain tray prison leopard cheese recall husband custom resemble order enforce actor drastic stumble divert bridge
+
+
+- address: fury1534jtlhf64mlzq8u3fn0rqq4rj4qmh5pyw5t9a
+  name: airdropvested
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AnY4sYWOqFoNTRPa37QoJUbp3TyXgNChcQdb5L/ycwJg"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+harsh female hold feature bullet loud either poverty legal employ clip repeat describe trip yard canyon duty when vibrant thrive school airport round steel
+
+
+- address: fury1lwm6cgmggmqt4mkx229cm8nuq5qnnkz92qulgr
+  name: whitelist
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A1+/jRnbqD9+ZJsOeeNbiFNGvfpXSZMcgcBc+loYSk5V"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+dream sentence cabin tumble forward cradle damage flight fashion iron next caution present satisfy just alert royal trigger wisdom course sort warrior frown paddle
+
+
+- address: fury1zwjrwpd8mzpqhlqv3naml838spn7kru5yqlcvh
+  name: bonding
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Aq7jBRKqGBDTng7dSwgV1OzNtNmilwZ0dfdDTsKr0Xfv"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+local daughter antique bronze isolate memory fancy try forest above regret zoo renew mass elder soccer caught shield garment license table pulse avocado typical
+
+
+- address: fury1qp48l73jsg4p3pygrr2vtkhsx8z8evkpzawky2
+  name: bondingvested
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A23RaDPaqMuKqRbG7qP3ha+RyIbn3Mloth78QnN1NpHg"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+keep birth guard interest age witness gesture resource nation game snow soccer remind champion chase extra parent rather during grace canoe thunder century scheme
+
+
+- address: fury1xwjv39yvks76vnhwr93wff9rcpkwn4uy09fk6e
+  name: seed
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A+wCQNi0AqxpjpvebZLp17G5gzEq3cwMjAp7GYuSrnTK"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+fee topic canyon wood spin snap travel bulk place source vivid sock theme recall very artist damage very twin pause balcony polar assist blur
+
+
+- address: fury1crr4dnqm8fze65cgs0te0lclvzkzwqrwctwyqm
+  name: private
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A8VYrt66KWq0Ffg+3d9WJDlIeGu3y6i31xdXOkNOn3tZ"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+snack digital slogan danger rocket liar legend maze awake flush excuse buddy project come leopard engine april brave desk child nest title wage soldier
+
+
+- address: fury1num0qpugzkn7khfwklph50em70hv0vnw7s6dcq
+  name: bonus
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A6r8A6EhBT57ujdYliCguo7BbVgszkv/NDvRn+3fy4DW"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+glimpse never fantasy exhibit under strong jeans estate little label soldier tonight survey sweet holiday finger inmate blush hip object bronze decline supply chronic
+
+
+- address: fury1crplp4pgcn4mnjhu6xpf5k50zz7zy4h5f8g7gn
+  name: atlo
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A7HjM1tLlz0gyLchwao7UpC6RSEtUZ1YWVm0jNQJob+D"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+squirrel settle urge renew situate lake host visual apple cost bag cactus skate news clerk fatigue resist taxi mutual lizard hero burger video pitch
+
+
+- address: fury1t4pn6vcm5ksfdwntyfwqy0xee5psukq9gxetn4
+  name: valkyrie
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AgwACq1vt7YjD4ipfuIjobGazV5d0sDV+H03mS1DcYsN"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+derive project obtain idea cream ride prefer record visual pen behind blood potato admit small list crew try liquid opinion finish april weekend whale
+
+
+- address: fury1d8un6cxanf60nkcunrhnjjhse4t7ux2jjn4xk4
+  name: public
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A/kx6npJsB3y2bMfXsE2YMRmCl9MgZBJh8/cSwueRwJU"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+special occur update appear east decide update bubble client target already bind grass spoon vacuum profit start video session lounge easily arch want bunker
+
+
+- address: fury1z4fafu9a5vn8h0fpkfl8s85d5d2y7pekrajda2
+  name: marketing
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AskHC9kz9GmMoU7ucitafNBb/RyW8sCixk14Bn4N55hy"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+shed kite bamboo fluid illness refuse apart rack arrange whip creek luggage setup swap sadness paddle artist offer gorilla mammal inject salt major figure
+
+
+- address: fury1axp6z79l2s0pyl7j6hrt63cvsv8h0scmvs97ky
+  name: advisors
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AnuZ31BZCszXokPZQxnLxkqXgYezWTGNlH+2ERpPJIRe"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+scrub order treat either jar credit travel monkey cause wash rail erode item brand else venture between vintage blood balance trigger bullet negative shy
+
+
+- address: fury1z5n4h279kppd9074yr36emjycsye98xqtczfkn
+  name: advisorsvested
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"ApgDGqoEz3EKSyxWmCzgAKr1FLlE2YOKwDcXBiKralfw"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+elegant slight bulb disagree tray coral fury pudding comfort good already select siren heart boost roof fury today pact void return license gift swear
+
+
+- address: fury1qcrq3ztsmmmjcka4vvfnuq9lu0jxh2wf4qjy7g
+  name: team
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Ao0NKSMqbzbNES+YWSZ1Ac8X1RA5BgZdmj4hgc5Pt2fm"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+novel fatal denial gospel pair gadget diamond sing sponsor vault glue cross mixture attract recycle spare direct tissue source prefer hockey level garage glad
+
+
+- address: fury1fcmhrkt46kxxdp56h40pg8wm8zw007f4ce3gt4
+  name: treasury
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"Ax9kzUBkGpSGWnCmouNk9RMloo+yWt2KYx+rIHj86r0U"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+famous luggage head spike discover enemy afraid curve slogan lesson fatigue snow trophy firm test ring clever seek toss jaguar bounce enjoy rude orient
+
+
+- address: fury17zsjsqj92vszzfj7vfsrvq496ysgv8gjaadzck
+  name: treasuryvested
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A995W88UFr7z8oy0hGY8WM9uDHZHTdiwyUYndKPLwZTF"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+day desk way old post chunk pledge stairs manual noodle few year wrist lobster polar much apple twenty upon obtain sleep grid celery dirt
+
+
+- address: fury10vfwzszgngyaxn4rp5r7pushwu8x2g2qjh4azy
+  name: eco
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AyGODgM/K/VlJ5g7EqnOTsqoGOnATxY8mcXAQ9a7E7sJ"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+sketch neither enter camera idle impose angry bring high report entire absurd horror head spoil educate truck child floor pledge copy toe love nut
+
+
+- address: fury10fe5wzth5hm0m9c6wrmgs7lwztqgdjex0zqm25
+  name: ecovested
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A9kGDelqWdm6F0rI8ygEL6dh4dCA6tBxRUfJRS9OecPc"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+wealth job blue human actress assist wrist onion few shrug fetch crazy loud pull mix casual solve tennis offer dial history ill oppose scan
+
+
+- address: fury1dllm9umhpdcpud0prlknay6qgsv9nzw7gqmmdd
+  name: liquidity
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"ArirmD4TaKbgLjKM+gcWnlD8WHk4N6QRQJevn7OS5M27"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+grace hospital material husband sudden uncover tenant mouse net direct police real chalk drive output extend edge foam message soul bright subject shy athlete
+
+
+- address: fury1cj0u7jup3vz2vvxjhqmqddggj0nxr0lru57a0d
+  name: liquidityvested
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"ArBUSmFyAt3pZoeq+96lR8aGJ1bcNMiBa+2NNEV8qDeC"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+father someone story test forest island family vapor option push okay you enable entry turn team matrix silly occur demand agent anxiety grant decorate
+
+
+- address: fury15un886qjtgx8qg37rk4xmmja3p7turw49txxfw
+  name: faucet
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AzUacltnUwsAUPXnSTvnaB3gUOzTQolwzZALOORaEC6l"}'
+  type: local
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+beyond hub bless simple layer blanket figure cash giant pudding fashion wealth goddess clap twin provide gospel leave try major fruit diesel dad medal

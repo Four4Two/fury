@@ -94,7 +94,7 @@ func (suite *grpcQueryTestSuite) TestQueryDelegatedBalance() {
 		{
 			name: "no account returns zeros",
 			setup: func() string {
-				return "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6qm7n4t"
+				return "fury10wlnqzyss4accfqmyxwx5jy5x9nfkwh6v9rpsr"
 			},
 			expectedRes: zeroResponse,
 		},

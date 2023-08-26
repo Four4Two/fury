@@ -51,9 +51,9 @@ func (suite *SimulateRequestTestSuite) TearDownTest() {
 }
 
 func (suite *SimulateRequestTestSuite) TestSimulateRequest() {
-	fromAddr, err := sdk.AccAddressFromBech32("fury1esagqd83rhqdtpy5sxhklaxgn58k2m3s3mnpea")
+	fromAddr, err := sdk.AccAddressFromBech32("fury1esagqd83rhqdtpy5sxhklaxgn58k2m3sa9wnu4")
 	suite.Require().NoError(err)
-	toAddr, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9ts54w0w")
+	toAddr, err := sdk.AccAddressFromBech32("fury1mq9qxlhze029lm0frzw2xr6hem8c3k9tu2gu2x")
 	suite.Require().NoError(err)
 
 	simRequest := app.SimulateRequest{

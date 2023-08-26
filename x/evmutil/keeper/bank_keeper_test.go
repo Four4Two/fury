@@ -94,7 +94,7 @@ func (suite *evmBankKeeperTestSuite) TestGetBalance() {
 			sdk.ZeroInt(),
 		},
 		{
-			"with avaka that is more than 1 ufury",
+			"with aryfu that is more than 1 ufury",
 			sdk.NewCoins(
 				sdk.NewInt64Coin("afury", 20_000_000_000_220),
 				sdk.NewInt64Coin("ufury", 11),

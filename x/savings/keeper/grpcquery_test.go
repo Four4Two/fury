@@ -23,8 +23,8 @@ import (
 var dep = types.NewDeposit
 
 const (
-	bfury1 = "bfury-furyvaloper15gqc744d05xacn4n6w2furuads9fu4pqn6zxlu"
-	bfury2 = "bfury-furyvaloper15qdefkmwswysgg4qxgqpqr35k3m49pkx8yhpte"
+	bfury1 = "bfury-furyvaloper15gqc744d05xacn4n6w2furuads9fu4pq7c8fhj"
+	bfury2 = "bfury-furyvaloper15qdefkmwswysgg4qxgqpqr35k3m49pkx2xjwrh"
 )
 
 type grpcQueryTestSuite struct {
