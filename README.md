@@ -24,10 +24,10 @@ Reference implementation of Fury, a blockchain for cross-chain DeFi. Built using
 
 ## Mainnet
 
-The current recommended version of the software for mainnet is [v4.0.1](https://github.com/Four4Two/fury/releases/tag/v0.23.0). The master branch of this repository often contains considerable development work since the last mainnet release and is __not__ runnable on mainnet.
+The current recommended version of the software for mainnet is [v4.0.1](https://github.com/Four4Two/fury/releases/tag/v4.0.1). The master branch of this repository often contains considerable development work since the last mainnet release and is __not__ runnable on mainnet.
 
 ### Installation and Setup
-For detailed instructions see [the Fury docs](https://docs.fury.io/docs/participate/validator-node).
+For detailed instructions see [the Fury docs](https://docs.fury.black/docs/participate/validator-node).
 
 ```bash
 git checkout v4.0.1
@@ -50,7 +50,7 @@ For further information on joining the testnet, head over to the [testnet repo](
 
 ## Docs
 
-Fury protocol and client documentation can be found in the [Fury docs](https://docs.fury.io).
+Fury protocol and client documentation can be found in the [Fury docs](https://docs.fury.black).
 
 If you have technical questions or concerns, ask a developer or community member in the [Fury discord](https://discord.com/invite/kQzh3Uv).
 
