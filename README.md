@@ -24,13 +24,13 @@ Reference implementation of Fury, a blockchain for cross-chain DeFi. Built using
 
 ## Mainnet
 
-The current recommended version of the software for mainnet is [v0.23.0](https://github.com/Four4Two/fury/releases/tag/v0.23.0). The master branch of this repository often contains considerable development work since the last mainnet release and is __not__ runnable on mainnet.
+The current recommended version of the software for mainnet is [v4.0.1](https://github.com/Four4Two/fury/releases/tag/v0.23.0). The master branch of this repository often contains considerable development work since the last mainnet release and is __not__ runnable on mainnet.
 
 ### Installation and Setup
 For detailed instructions see [the Fury docs](https://docs.fury.io/docs/participate/validator-node).
 
 ```bash
-git checkout v0.23.0
+git checkout v4.0.1
 make install
 ```
 
