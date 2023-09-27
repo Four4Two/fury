@@ -16,7 +16,7 @@
 
 <div align="center">
 
-### [Telegram](https://t.me/highburychain) | [Medium](https://medium.com/blackfurychain) | [Discord](https://discord.gg/QzaJtR77WB)
+### [Telegram](https://t.me/highburychain) | [Medium](https://medium.com/@blackfurychain) | [Discord](https://discord.gg/QzaJtR77WB)
 
 </div>
 
