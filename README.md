@@ -9,14 +9,14 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/four4two/fury)](https://goreportcard.com/report/github.com/four4two/fury)
 [![API Reference](https://godoc.org/github.com/Four4Two/fury?status.svg)](https://godoc.org/github.com/Four4Two/fury)
 [![GitHub](https://img.shields.io/github/license/four4two/fury.svg)](https://github.com/Four4Two/fury/blob/master/LICENSE.md)
-[![Twitter Follow](https://img.shields.io/twitter/follow/FURY_CHAIN.svg?label=Follow&style=social)](https://twitter.com/FURY_CHAIN)
+[![Twitter Follow](https://img.shields.io/twitter/follow/FURY_CHAIN.svg?label=Follow&style=social)](https://twitter.com/blackfurychain)
 [![Discord Chat](https://img.shields.io/discord/704389840614981673.svg)](https://discord.com/invite/kQzh3Uv)
 
 </div>
 
 <div align="center">
 
-### [Telegram](https://t.me/furylabs) | [Medium](https://medium.com/four4two) | [Discord](https://discord.gg/JJYnuCx)
+### [Telegram](https://t.me/highburychain) | [Medium](https://medium.com/blackfurychain) | [Discord](https://discord.gg/QzaJtR77WB)
 
 </div>
 
@@ -52,7 +52,7 @@ For further information on joining the testnet, head over to the [testnet repo](
 
 Fury protocol and client documentation can be found in the [Fury docs](https://docs.fury.black).
 
-If you have technical questions or concerns, ask a developer or community member in the [Fury discord](https://discord.com/invite/kQzh3Uv).
+If you have technical questions or concerns, ask a developer or community member in the [Fury discord](https://discord.gg/QzaJtR77WB).
 
 ## Security
 
